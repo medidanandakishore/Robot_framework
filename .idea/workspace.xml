@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e03fc5f-2f5d-4c28-a8b6-4d5315c9721f" name="Changes" comment="robot1">
-      <change afterPath="$PROJECT_DIR$/robot_selenium/medibuddy.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot_selenium/openemr_suite.robot" afterDir="false" />
+    <list default="true" id="9e03fc5f-2f5d-4c28-a8b6-4d5315c9721f" name="Changes" comment="medibuddy.robot&#10;openemr_suite.robot">
+      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644385349355</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="medibuddy.robot&#10;openemr_suite.robot">
+      <created>1644430498772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644430498772</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="robot" />
     <MESSAGE value="robot1" />
-    <option name="LAST_COMMIT_MESSAGE" value="robot1" />
+    <MESSAGE value="medibuddy.robot&#10;openemr_suite.robot" />
+    <option name="LAST_COMMIT_MESSAGE" value="medibuddy.robot&#10;openemr_suite.robot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
