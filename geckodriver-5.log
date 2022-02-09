@@ -1,0 +1,14 @@
+1644432680711	geckodriver	INFO	Listening on 127.0.0.1:52055
+1644432683717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52056" "-no-remote" "-profile" "C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofile9UrmYV"
+1644432686103	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofile9UrmYV\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:52056/devtools/browser/f802e903-c080-4af2-af6b-c99c5edfd01a
+1644432712472	Marionette	INFO	Listening on port 52061
+1644432714868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644432760888	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31

@@ -1,0 +1,32 @@
+1644432256351	geckodriver	INFO	Listening on 127.0.0.1:51791
+1644432259349	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51792" "-no-remote" "-profile" "C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofileJ9fRTE"
+1644432261453	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofileJ9fRTE\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:51792/devtools/browser/43f92949-0ce5-4ea2-b2a9-01916051b07d
+1644432309215	Marionette	INFO	Listening on port 51797
+1644432310892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644432356501	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:77295
+k._evalUrl@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:79350
+Ie@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:48088
+append@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:49520
+html/<@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:50612
+_@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:31840
+html@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:50290
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:1255:36
+c@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:27742
+fireWith@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:28487
+l@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:78789
+o/<@https://opensource-demo.orangehrmlive.com/webres_6203daea01fed4.64355798/js/jquery/jquery-3.4.1.min.js:2:81117
+1644432398572	Marionette	INFO	Stopped listening on port 51797
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 10964, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10964, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Parent 10964, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
