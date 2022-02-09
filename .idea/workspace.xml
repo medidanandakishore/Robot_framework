@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e03fc5f-2f5d-4c28-a8b6-4d5315c9721f" name="Changes" comment="robot" />
+    <list default="true" id="9e03fc5f-2f5d-4c28-a8b6-4d5315c9721f" name="Changes" comment="robot1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644381684642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="robot1">
+      <created>1644384770983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644384770999</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="robot" />
-    <option name="LAST_COMMIT_MESSAGE" value="robot" />
+    <MESSAGE value="robot1" />
+    <option name="LAST_COMMIT_MESSAGE" value="robot1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
