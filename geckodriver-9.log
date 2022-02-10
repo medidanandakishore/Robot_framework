@@ -1,0 +1,15 @@
+1644474547421	geckodriver	INFO	Listening on 127.0.0.1:60224
+1644474550501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60225" "-no-remote" "-profile" "C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofileT3xNZJ"
+1644474553409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofileT3xNZJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60225/devtools/browser/38a54beb-0dd9-4a16-ae9a-d8732be33615
+1644474564055	Marionette	INFO	Listening on port 60231
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1644474566266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm, line 31: unreachable code after return statement
+JavaScript warning: https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm, line 31: unreachable code after return statement
+1644474626202	Marionette	INFO	Stopped listening on port 60231
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 17004, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
