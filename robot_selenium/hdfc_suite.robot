@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 Tc1
-    Open Browser       browser=edge         executable_path=${EXECDIR}/driver/msedgedriver
+    Open Browser       browser=firefox          executable_path=${EXECDIR}/driver/geckodriver
     Maximize Browser Window
     Set Selenium Implicit Wait    10s
     Go To    url=https://netbanking.hdfcbank.com/netbanking
