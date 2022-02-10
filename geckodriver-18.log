@@ -1,0 +1,9 @@
+1644493719035	geckodriver	INFO	Listening on 127.0.0.1:51513
+1644493722075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51514" "-no-remote" "-profile" "C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofilem1yG3T"
+1644493725075	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofilem1yG3T\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:51514/devtools/browser/05999223-7ae3-4ed0-a25e-6cfc822b660b
+1644493738289	Marionette	INFO	Listening on port 51519
+1644493741236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
