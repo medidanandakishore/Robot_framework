@@ -1,0 +1,17 @@
+1644469297092	geckodriver	INFO	Listening on 127.0.0.1:58871
+1644469300741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58872" "-no-remote" "-profile" "C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofile8G4MFC"
+1644469340352	Marionette	INFO	Marionette enabled
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 394)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:394:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:387:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:429:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:467:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:367:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:351:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Praveen M\\AppData\\Local\\Temp\\rust_mozprofile8G4MFC\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:58872/devtools/browser/309b94a4-2b95-4e8c-8489-b5ab4fdc99a9
+1644469448206	Marionette	INFO	Listening on port 58877
+1644469542019	Marionette	INFO	Stopped listening on port 58877
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 16076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 261: TypeError: this._builder is undefined
+[Parent 16076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

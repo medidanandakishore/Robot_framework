@@ -1,6 +1,7 @@
 *** Variables ***
 ${MY_NAME}      Nani
 @{COLORS}       red     green    Blue
+&{EMPLOYEE1}    empid=108   empname=nani    gender=male
 *** Test Cases ***
 TC1
     Log To Console    ${EXECDIR}
@@ -16,7 +17,20 @@ TC1
     Log To Console    ${COLORS}[2]
     
 TC2
-    FOR    ${i}    IN    ${COLORS}
-           Log To Console    ${i}
+    ${count}    Get Length    ${COLORS}
+    Log To Console    ${count}
+    FOR    ${i}    IN RANGE    0    ${count}    1
+        Log To Console    ${COLORS}[${i}]
 
-       END
+    END
+
+TC3
+    FOR    ${color}    IN    @{COLORS}
+        Log To Console    ${color}
+
+    END
+
+TC4
+    Log To Console    ${EMPLOYEE1}
+    Log To Console    ${EMPLOYEE1}[empname]
+    Log To Console    ${EMPLOYEE1}[gender]
