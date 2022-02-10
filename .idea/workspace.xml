@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e03fc5f-2f5d-4c28-a8b6-4d5315c9721f" name="Changes" comment="medibuddy.robot&#10;openemr_suite.robot">
-      <change afterPath="$PROJECT_DIR$/robot_suite/demo2_suite.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-    </list>
+    <list default="true" id="9e03fc5f-2f5d-4c28-a8b6-4d5315c9721f" name="Changes" comment="medibuddy.robot&#10;openemr_suite.robot" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644464850811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="medibuddy.robot&#10;openemr_suite.robot">
+      <created>1644467092786</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644467092786</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

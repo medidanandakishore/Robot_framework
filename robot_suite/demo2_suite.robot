@@ -16,7 +16,7 @@ TC1
     Log To Console    ${COLORS}[2]
     
 TC2
-    FOR    ${i}    IN  RANGE      2
+    FOR    ${i}    IN    ${COLORS}
            Log To Console    ${i}
 
        END

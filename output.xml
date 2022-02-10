@@ -1,87 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220210 09:53:39.987" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220210 09:57:16.846" rpa="false" schemaversion="2">
 <suite id="s1" name="Demo2 Suite" source="C:\Users\Praveen M\PycharmProjects\robot_framework\robot_suite\demo2_suite.robot">
 <test id="s1-t1" name="TC1">
 <kw name="Log To Console" library="BuiltIn">
 <arg>${EXECDIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.048" endtime="20220210 09:53:40.049"/>
+<status status="PASS" starttime="20220210 09:57:17.006" endtime="20220210 09:57:17.007"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>C:\\Users\\Praveen M\\PycharmProjects\\robot_framework\\robot_suite</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.049" endtime="20220210 09:53:40.049"/>
+<status status="PASS" starttime="20220210 09:57:17.008" endtime="20220210 09:57:17.010"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${OUTPUT_DIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.050" endtime="20220210 09:53:40.051"/>
+<status status="PASS" starttime="20220210 09:57:17.010" endtime="20220210 09:57:17.012"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${EXECDIR}${/}driver${/}geckodriver.exe</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.051" endtime="20220210 09:53:40.052"/>
+<status status="PASS" starttime="20220210 09:57:17.013" endtime="20220210 09:57:17.017"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${SUITE_NAME}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.052" endtime="20220210 09:53:40.053"/>
+<status status="PASS" starttime="20220210 09:57:17.019" endtime="20220210 09:57:17.026"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${TEST_NAME}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.054" endtime="20220210 09:53:40.054"/>
+<status status="PASS" starttime="20220210 09:57:17.027" endtime="20220210 09:57:17.030"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${TEMPDIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.055" endtime="20220210 09:53:40.056"/>
+<status status="PASS" starttime="20220210 09:57:17.030" endtime="20220210 09:57:17.033"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${MY_NAME}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.056" endtime="20220210 09:53:40.057"/>
+<status status="PASS" starttime="20220210 09:57:17.035" endtime="20220210 09:57:17.038"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${COLORS}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.058" endtime="20220210 09:53:40.059"/>
+<status status="PASS" starttime="20220210 09:57:17.039" endtime="20220210 09:57:17.041"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${COLORS}[2]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.060" endtime="20220210 09:53:40.060"/>
+<status status="PASS" starttime="20220210 09:57:17.046" endtime="20220210 09:57:17.050"/>
 </kw>
-<status status="PASS" starttime="20220210 09:53:40.047" endtime="20220210 09:53:40.061"/>
+<status status="PASS" starttime="20220210 09:57:17.005" endtime="20220210 09:57:17.056"/>
 </test>
 <test id="s1-t2" name="TC2">
 <for flavor="IN">
 <var>${i}</var>
-<value>RANGE</value>
-<value>2</value>
+<value>${COLORS}</value>
 <iter>
-<var name="${i}">RANGE</var>
+<var name="${i}">['red', 'green', 'Blue']</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${i}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.065" endtime="20220210 09:53:40.065"/>
+<status status="PASS" starttime="20220210 09:57:17.062" endtime="20220210 09:57:17.069"/>
 </kw>
-<status status="PASS" starttime="20220210 09:53:40.064" endtime="20220210 09:53:40.065"/>
+<status status="PASS" starttime="20220210 09:57:17.062" endtime="20220210 09:57:17.070"/>
 </iter>
-<iter>
-<var name="${i}">2</var>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${i}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220210 09:53:40.066" endtime="20220210 09:53:40.066"/>
-</kw>
-<status status="PASS" starttime="20220210 09:53:40.065" endtime="20220210 09:53:40.066"/>
-</iter>
-<status status="PASS" starttime="20220210 09:53:40.064" endtime="20220210 09:53:40.066"/>
+<status status="PASS" starttime="20220210 09:57:17.061" endtime="20220210 09:57:17.070"/>
 </for>
-<status status="PASS" starttime="20220210 09:53:40.063" endtime="20220210 09:53:40.067"/>
+<status status="PASS" starttime="20220210 09:57:17.060" endtime="20220210 09:57:17.072"/>
 </test>
-<status status="PASS" starttime="20220210 09:53:39.991" endtime="20220210 09:53:40.068"/>
+<status status="PASS" starttime="20220210 09:57:16.904" endtime="20220210 09:57:17.076"/>
 </suite>
 <statistics>
 <total>
