@@ -14,6 +14,6 @@ TC1
     FOR     ${i}    IN RANGE    0   ${linkcount}    1
         ${text}     Get Text    ${elements}[${i}]
         Log To Console      ${text}
-        Run Keyword If    '${text}'==Images     Click Element    ${elements}[${i}]
-        Exit For Loop If    '${text}'==Images
+        Run Keyword If    '${text}'=='Images'     Click Element    ${elements}[${i}]
+        Exit For Loop If    '${text}'=='Images'
     END
